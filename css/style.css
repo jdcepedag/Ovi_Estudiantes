@@ -45,7 +45,7 @@ h10{
     font-size: 16px;
     color:black;
     font-weight: bold;
-    color: #740B71
+    color: #740B71;
 }
 article{
     background-color:  #740B71;
@@ -79,12 +79,14 @@ nav{
     display: inline-block;
     background-color: #2FA9E6;
     border-radius: 20px;
+    color: #740B71;
 }
 li a, btnsubmenu{
   display: inline-block;
   padding: 0.9em 1em;
   text-align: center;
   text-decoration: none;
+  color: #740B71;
 }
 .cont-submenu{
   display: none;
