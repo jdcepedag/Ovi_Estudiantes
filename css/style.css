@@ -1,0 +1,130 @@
+#contenidos{
+    max-width: 100%;
+    align-self: center;
+    align-content: center;
+    margin:0px;
+    padding:0px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+}
+body{
+        font-family: sans-serif;
+}
+header{
+    background-image: url(../img/header.png);
+    align-content: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 350px;
+}
+h1{
+    font-size: 30px;
+    color:white;
+    margin:25px;
+}
+h2{
+    font-size: 35px;
+    color:black;
+    margin:25px;
+}
+h3{
+    font-size: 25px;
+    color:black;
+    margin:25px;
+}
+h5{
+    font-size: 18px;
+    color:white;
+    margin:25px;
+}
+
+h10{
+    font-size: 16px;
+    color:black;
+    font-weight: bold;
+    color: #740B71
+}
+article{
+    background-color:  #740B71;
+    border-radius: 20px;
+    margin: 25px;
+    font-size: 14px;
+    }
+h4{
+    background-color:  #2FA9E6;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 0.9em 1em;
+    margin: 25px;
+    color: #740B71;
+    }
+p{
+  border-radius: 20px;
+   align-content: center;
+background-position: center;
+display: inline-block;
+color: #E6EDF3;
+}
+nav{
+      font-weight: bold;
+      margin:25px;
+      align-content: center;
+      text-align: center;
+}
+.menu li {
+    display: inline-block;
+    background-color: #2FA9E6;
+    border-radius: 20px;
+}
+li a, btnsubmenu{
+  display: inline-block;
+  padding: 0.9em 1em;
+  text-align: center;
+  text-decoration: none;
+}
+.cont-submenu{
+  display: none;
+  position: absolute;
+  color: #2FA9E6;;
+  min-width: 8em;
+  border-radius: 20px;
+}
+.cont-submenu a{
+  padding: 0.9em 1em;
+  display: block;
+  text-align: left;
+  border-radius: 20px;
+}
+.cont-submenu a:hover{
+  background-color: #DBF2F1;
+  border-radius: 20px;
+}
+.submenu:hover .cont-submenu{
+  display: block;
+  border-radius: 20px;
+  background-color: #2FA9E6;
+}
+li a:hover{
+  transition: all .3s;
+  border-radius: 20px;
+border-color: #2FA9E6;
+
+}
+.menu a:hover{
+  background-color: #DBF2F1;
+  border-radius: 20px;
+  border: 1px solid #afcde3;
+}
+    
+    
+    
+    
+    
+
+
+
+
